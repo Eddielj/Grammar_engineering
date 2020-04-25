@@ -1,0 +1,44 @@
+S -> NP VP
+
+NP -> ProperNoun
+
+NP -> NP CONJ NP
+NP -> Noun
+NP -> NP Adverb
+NP -> VP CONJ VP
+
+VP -> VP ARG
+VP -> V
+VP -> VP ARG VP
+
+ARG -> NP
+
+
+V -> 'feed'
+V -> 'feeds'
+V -> 'fed'
+V -> 'barked'
+V -> 'barks'
+V -> 'eat'
+V -> 'eats'
+V -> 'drinks'
+V -> 'ate'
+V -> 'thinks'
+
+CONJ -> 'and'
+
+Adverb -> 'seldom'
+Adverb -> 'often'
+Adj -> 'tasty'
+Det -> 'the'
+
+PP -> 'in'
+Prep -> 'after'
+
+Noun -> 'cheese'
+Noun -> 'water'
+Noun -> 'diner'
+Noun -> 'kitchen'
+
+ProperNoun -> 'Wallace'
+ProperNoun -> 'Gromit'
